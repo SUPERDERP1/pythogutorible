@@ -5,8 +5,10 @@ document.getElementById("inputForm").addEventListener("submit", (event) => {
     const inputField = document.getElementById("inputReader")
     const input = inputField.value.trim();
     
-if (input == "help") {
-        console.log("finn & max big booty clapping");
+if (input === "help") {
+        console.log("success");
+}else{
+    console.error("invalid");
 }
 });
 
