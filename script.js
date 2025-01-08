@@ -2,10 +2,11 @@ let screenCounter = 0;
 
 document.getElementById("inputForm").addEventListener("submit", (event) => {
     event.preventDefault();
-    const inputField = document.getElementById("inputReader");
+    const inputField = document.getElementById("inputReader")
     const input = inputField.value.trim();
-}
-
+    
 if (input == "help") {
-    console.log("finn & max big booty clapping");
+        console.log("finn & max big booty clapping");
 }
+});
+
