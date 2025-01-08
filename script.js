@@ -6,7 +6,7 @@ document.getElementById("inputForm").addEventListener("submit", (event) => {
     const input = inputField.value.trim();
     console.log("submitted");
 if (input === "help") {
-        console.log("success");
+    console.log("success");
 }else{
     console.error("invalid");
 }
