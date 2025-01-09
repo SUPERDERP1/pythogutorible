@@ -10,3 +10,7 @@ input {
     width: 100%;
     text-align: center;
 }
+
+.errormessage {
+    text-align: center;
+}
