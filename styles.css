@@ -5,3 +5,8 @@ body {
 h1 {
     text-align: center;
 }
+
+input {
+    width: 100%;
+    text-align: center;
+}
