@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 window.location.href = "index2.html"; 
             }, 3000); // in ms btw
         } else {
-            console.error("invalid");
+            console.error("invalid")
             errorMessage.textContent = "Not Quite! Try Again";
         }
     });
