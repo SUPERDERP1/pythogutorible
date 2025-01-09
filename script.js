@@ -8,11 +8,12 @@ document.addEventListener("DOMContentLoaded", () => {
         const input = inputField.value.trim();
         const errorMessage = document.getElementById("errorMessage");
        
+        errorMessage.style.color = "red";
         console.log("submitted");
        
         if (input === "help") {
             console.log("success");
-            errorMessage.color = "green";
+            errorMessage.style.color = "green";
             errorMessage.textContent = "Success! Next up: placeholder";
             setTimeout(() => {
                 window.location.href = "index2.html"; 
