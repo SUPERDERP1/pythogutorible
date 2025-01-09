@@ -10,11 +10,9 @@ document.addEventListener("DOMContentLoaded", () => {
        
         if (input === "help") {
             console.log("success");
+            window.location.href = "index2.html"; 
         } else {
             console.error("invalid");
         }
-
-        
     });
 });
-       
