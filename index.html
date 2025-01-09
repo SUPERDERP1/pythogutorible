@@ -8,22 +8,6 @@
             <input style="filter:opacity(40%); font-style:italic; margin:0px!important;" type="text" id="inputReader" placeholder="enter command" />
         </form>
 
-        <script>
-            document.addEventListener("DOMContentLoaded", () => {
-                let screenCounter = 0;
-
-                document.getElementById("inputForm").addEventListener("submit", (event) => {
-                    event.preventDefault();
-                    const inputField = document.getElementById("inputReader");
-                    const input = inputField.value.trim();
-                    console.log("submitted");
-                    if (input === "help") {
-                        console.log("success");
-                    } else {
-                        console.error("invalid");
-                    }
-                });
-            });
-        </script>
+        
     </body>
 </html>
