@@ -9,11 +9,12 @@
         <p> what does this mean/do? </p>
         <img class="center"src="variable.png" alt="variable">
          
-        <form id="inputForm">
-            <div class="center" id="errorMessage" style="color: red;"></div>
-            <input style="filter:opacity(40%); font-style:italic; margin:0px!important;" type="text" id="inputReader" placeholder="enter command" />
-        </form>
-        
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img src="img_w3slogo.gif" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
+          </div>
+          
+          <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          
         
     </body>
 </html>
