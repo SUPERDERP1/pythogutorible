@@ -14,6 +14,14 @@ input {
     text-align: center;
 }
 
+.center {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+
 #div1, #div2 {
     float: center;
     width: 100px;
