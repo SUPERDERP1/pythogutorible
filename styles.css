@@ -1,6 +1,6 @@
 body {
     background-color: rgb(35, 35, 35);
-    margin: auto;
+    float: auto;
 }
 
 h1 {
@@ -13,7 +13,7 @@ input {
 }
 
 img {
-    margin: auto;
+    float: auto;
 }
 
 #div1, #div2 {
