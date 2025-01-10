@@ -1,5 +1,5 @@
 // js code sucks
-
+count = 0;
 y = true;
 while (y = true) {
    x = Math.floor(Math.random() * 1000001);
