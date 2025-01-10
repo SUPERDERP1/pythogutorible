@@ -17,9 +17,8 @@ input {
 .center {
     position: absolute;
     top: 50%;
-    width: 100%;
+    margin: 50%;
     text-align: center;
-    font-size: 18px;
   }
 
 #div1, #div2 {
