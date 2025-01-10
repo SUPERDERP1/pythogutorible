@@ -1,5 +1,6 @@
 body {
     background-color: rgb(35, 35, 35);
+    margin: auto;
 }
 
 h1 {
@@ -11,13 +12,6 @@ input {
     text-align: center;
 }
 
-.center {
-    text-align: center;
-}
-
-img {
-    text-align: center;
-}
 
 #div1, #div2 {
     float: center;
