@@ -1,8 +1,5 @@
 body {
     background-color: rgb(35, 35, 35);
-    margin-top: 10%;
-    margin: 25%;
-    float: center;
 }
 
 h1 {
@@ -16,9 +13,7 @@ input {
 
 .center {
     position: absolute;
-    top: 50%;
-    margin: 50%;
-    text-align: center;
+    margin-left: 40%;
   }
 
 #div1, #div2 {
