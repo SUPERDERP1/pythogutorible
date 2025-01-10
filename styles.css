@@ -12,6 +12,9 @@ input {
     text-align: center;
 }
 
+img {
+    margin: auto;
+}
 
 #div1, #div2 {
     float: center;
