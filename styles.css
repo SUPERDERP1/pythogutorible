@@ -1,6 +1,7 @@
 body {
     background-color: rgb(35, 35, 35);
-    margin: 50%;
+    margin-top: 10%;
+    margin: 25%;
 }
 
 h1 {
@@ -10,10 +11,6 @@ h1 {
 input {
     width: 100%;
     text-align: center;
-}
-
-img {
-    margin: 50%;
 }
 
 #div1, #div2 {
