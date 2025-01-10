@@ -35,7 +35,8 @@ document.addEventListener("DOMContentLoaded", () => { // why does the whole prog
             console.error("invalidScr");
             errorMessage.textContent = "Not Quite! Try Again";
             setTimeout(() => {
-                errormessage.textContent = "";
+                errorMessage.textContent = "";
             }, 3750); // still still ms
+        }
     });
 });
