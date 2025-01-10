@@ -2,6 +2,7 @@ body {
     background-color: rgb(35, 35, 35);
     margin-top: 10%;
     margin: 25%;
+    float: center;
 }
 
 h1 {
