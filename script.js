@@ -1,17 +1,4 @@
 // js code sucks
-count = 0;
-y = true;
-while (y = true) {
-   x = Math.floor(Math.random() * 1000001);
-
-   if (x = 0) {
-    console.log(count);
-    y = false
-   }else{
-    count += 1;
-    console.log(count)
-   }
-}
 
 let screens = 0;
 function allowDrop(ev) {
