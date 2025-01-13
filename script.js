@@ -10,14 +10,14 @@ console.log("submitted");
 console.log("success");
 //errorMessage.style.color = "green";
 
-setTimeout(() => {
-    window.location.href = "index2.html"; 
-}, 3000); // in ms btw
+//setTimeout(() => {
+    //window.location.href = "index2.html"; 
+//}, 3000); // in ms btw
 
       
 console.log("successScr2");
 
-screens += 1;
+//screens += 1;
 setTimeout(() => {
     window.location.href = "index2.html"; 
 }, 3000);// still ms
