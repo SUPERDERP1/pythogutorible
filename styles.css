@@ -1,6 +1,9 @@
 body {
     background-color: rgb(35, 35, 35);
-    
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
 }
 
 h1 {
