@@ -1,23 +1,8 @@
 // js code sucks
-
-let screens = 0;
-function allowDrop(ev) {
-    ev.preventDefault();
-  }
-  
-  function drag(ev) {
-    ev.dataTransfer.setData("text", ev.target.id);
-  }
-  
-  function drop(ev) {
-    ev.preventDefault();
-    var data = ev.dataTransfer.getData("text");
-    ev.target.appendChild(document.getElementById(data));
-  }
-
-
+const buttonTrueP1 = document.getElementById("BTP1");
 const errorMessage = document.getElementById("errorMessage");
        
+
 errorMessage.style.color = "red";
 console.log("submitted");
        
