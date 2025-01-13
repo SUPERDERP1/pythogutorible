@@ -27,3 +27,13 @@ img {
     display: block;
 }
 
+button {
+    text-align: center;
+    display: block;
+    color: red;
+}
+
+button:hover{
+    color: white;
+}
+
